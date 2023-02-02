@@ -7,7 +7,7 @@
 	display: inline-block; /**6-Passage à la ligne*/
 }
 .list-item-categorie a {
-	color: white; /*6*/
+	color: black; /*6*/
 	text-decoration: none; /*6*/
 	font-size: 13px; /*6*/
 }
