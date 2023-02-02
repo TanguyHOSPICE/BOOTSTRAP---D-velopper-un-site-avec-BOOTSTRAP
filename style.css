@@ -1,0 +1,13 @@
+/*6-html*/
+.list-item-categorie {
+	min-width: 3.5rem; /*6*/
+}
+.list-item-categorie img {
+	max-width: 30px; /*6*/
+	display: inline-block; /**6-Passage à la ligne*/
+}
+.list-item-categorie a {
+	color: white; /*6*/
+	text-decoration: none; /*6*/
+	font-size: 13px; /*6*/
+}
