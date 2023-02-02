@@ -1,13 +1,22 @@
-/*6-html*/
 .list-item-categorie {
-	min-width: 3.5rem; /*6*/
+	padding: 12px;
 }
 .list-item-categorie img {
-	max-width: 30px; /*6*/
-	display: inline-block; /**6-Passage à la ligne*/
+	max-width: 30px;
+	min-width: 30px;
+	display: inline-block;
 }
 .list-item-categorie a {
-	color: black; /*6*/
-	text-decoration: none; /*6*/
-	font-size: 13px; /*6*/
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	white-space: nowrap;
+	display: block;
+}
+
+.list-categorie {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	overflow-x: auto;
 }
