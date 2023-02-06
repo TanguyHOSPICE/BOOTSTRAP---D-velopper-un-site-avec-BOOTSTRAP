@@ -1,8 +1,8 @@
 .list-categorie {
 	display: flex;
-	justify-content: center;
+	justify-content: center; /*centrer*/
 	flex-wrap: nowrap;
-	overflow-x: auto;
+	overflow-x: auto; /*Si il y a besoin d'1 scroll*/
 }
 .list-item-categorie {
 	padding: 12px;
@@ -18,4 +18,16 @@
 	font-size: 13px;
 	white-space: nowrap;
 	display: block;
+}
+.list-item-categorie::after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 0%;
+	height: 2px;
+	background: #54dff4;
+	transition: width 0.2s ease-in-out;
+}
+.list-item-categorie:hover:after {
+	width: 2rem;
 }
