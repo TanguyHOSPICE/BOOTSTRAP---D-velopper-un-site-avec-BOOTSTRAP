@@ -1,3 +1,9 @@
+.list-categorie {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
 .list-item-categorie {
 	padding: 12px;
 }
@@ -7,16 +13,9 @@
 	display: inline-block;
 }
 .list-item-categorie a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	font-size: 13px;
 	white-space: nowrap;
 	display: block;
-}
-
-.list-categorie {
-	display: flex;
-	justify-content: center;
-	flex-wrap: nowrap;
-	overflow-x: auto;
 }
